@@ -42,7 +42,7 @@ iframe {
 
 .top-container {
   margin: 50px 0;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
 }
 
 .middle-container {
@@ -92,7 +92,18 @@ h3 {
 }
 
 h4 {
+  text-align: center;
   font-size: 15pt;
+  font-weight: bolder;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  color: #1586E9;
+  font-size: 15pt;
+  text-align: center;
+  margin: 20px 0 30px 0;
+  font-weight: bolder;
 }
 
 /*.email-link {
