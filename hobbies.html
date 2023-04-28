@@ -3,53 +3,243 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Hobbies</title>
-  <link href="css/main.css" rel="stylesheet" />
+  <title>Linda Treadway's Hobbies</title>
   <link rel="icon" href="favicon.ico">
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dancing+Script" />
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@1,100&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <header class="page-header">
-    <img class="header-img" src="images/profile_pic.png" alt="My picture">
-    <p class="header-title">Linda Kim Treadway</p>
-  </header>
-  <div class="middle-container">
-    <h3>Art</h3>
-    <p class="description">
-      I have dabbled in oils, charcoals, pastels, alcohol inks, etc. My favorite mediums are watercolor, inks, and mixed media.
-      As you can see in the banner above, my current passion is creating Neurographic Art using watercolor and ink. Click <a target="_blank" href="https://www.google.com/search?q=neurographic+art+definition&oq=neurographic+art&aqs=chrome.2.69i57j0i512l9.10528j1j7&sourceid=chrome&ie=UTF-8">here</a>,
-      if you want to learn more about Neurographic Art. I love all types of art. However, my favorites include abstract, waterscapes, and landscapes.
-      Not necessarily in that order or combination. Check out <a href="#">my art website</a> to see what I am currently
-      working on and my portfolio of artwork for sale. A friend recently suggested composing an adult coloring book using my artwork. Let me know your thoughts. I'd love to hear them.
-    </p>
-    <h3>Music</h3>
-    <p class="description">
-      I love most types of music, but my favorites include Jazz, Classic Rock, and R&B.
-      I have sung for most of my life in one choir or another. I was even given credit for participating
-      on an album my church produced. I did harmony backup vocals. It is an awsome worship CD called <em>Season of Praise</em>.
-      Check it out <a href="https://www.amazon.com/dp/B001BQOHRY/ref=ntt_mus_dp_dpt_1" target="_blank">here</a> to listen to some sound clips.
-      Music has always been part of my life.
-      I love rhythm's paradoxical qualities of complexity and simplicity. Rhythm is foundational, strong, and supportive.
-      Without rhythm, there is no music, no life. As with any foundation, if it crumbles, so does everything else.
-      I've tried out other instruments over the years, but none appeal to me as much as percussion. It is my soul instrument.
-    </p>
-    <!--<h3>Sports</h3>
-    <p class="description">
-      I played tennis, volleyball, and golf in high school. These days I play <a href="http://www.usapa.org" target="_blank">Pickleball</a>.
-      Other activities I enjoy are walking and cycling in the great outdoors.
-    </p>-->
-    <h3>Other</h3>
-    <p class="description">
-      Other pastimes I enjoy include: reading and writing, both fiction and non-fiction;
-      researching health topics; and analyzing statistical data, namely lottery numbers.
-      I love any type of puzzle and problem-solving or pattern recognition activities (i.e. sudoku, word games, programming)
-    </p>
-  </div>
-  <iframe src="footer.html" scrolling="no"></iframe>
+
+
+  <section class="header-section" id="title">
+    <div class="container-fluid page-header">
+
+      <div class="row description">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+          <h1 class="big-heading">Linda Kim Treadway</h1>
+        </div>
+        <div class="col-md-2">
+
+        <!-- Nav Bar -->
+        <nav class="navbar justify-content-center navbar-expand-md bg-none">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto flex-column">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#art">
+                  Art
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#music">
+                  Music
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reading">
+                  Reading
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photography">
+                  Photography
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other">
+                  Other Hobbies
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+          </div>
+      </div>
+    </div>
+    <!--page header-->
+
+    <div class="container-fluid row description">
+      <h1>Hobbies
+      </h1>
+
+      <h4>A well rounded person enjoys many past-times.<br />
+      My interests are wide and varied, but here are a sample of things I enjoy doing in my spare time.
+      <br /></h4>
+    </div>
+  </section>
+
+  <section class="colored-section" id="art">
+    <div class="container middle-container">
+      <h1 class="section-heading">
+        Art
+      </h1>
+      <p class="description">
+        <h4>I have dabbled in oils, charcoals, pastels, arcylics, alcohol inks, etc. My favorite mediums are watercolor, inks, and mixed media.<br />
+        An example of my forray into Alcohol Inks is shown in the banner above.<br />
+        My current interest is creating Neurographic Art using watercolor and ink.
+        Click <a target="_blank" href="https://www.google.com/search?q=neurographic+art+definition&oq=neurographic+art&aqs=chrome.2.69i57j0i512l9.10528j1j7&sourceid=chrome&ie=UTF-8">here</a>,
+        if you want to learn more about Neurographic Art.<br /><br />
+        I love all types of art. However, my favorites forms include abstract, waterscapes, and landscapes.
+        Not necessarily in that order or combination. <br />
+        I am currently working on an art gallery website. I'll update this page once it goes public.<br />
+        In the meantime, here is a small sample of what will show up on that site.<br />
+      </h4></p><br />
+
+      <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/mixed/field_of_flowers.jpg" class="rounded img-fluid w-50" alt="field_of_flowers">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/mixed/flower_focus.jpg" class="rounded img-fluid w-50" alt="flower_focus">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/mixed/coronas2.jpg" class="rounded img-fluid w-50" alt="coronas">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br />
+        <p class="description">
+          <!--Check out <a href="#">my art website</a> to see what I am currently
+        working on and my portfolio of artwork for sale.-->
+          <h4>A friend recently suggested composing an adult coloring book using my artwork. Let me know your thoughts. I'd love to hear what you think of this idea.
+        </h4></p>
+
+    </div>
+    <!--container-fluid-->
+  </section>
+
+  <section class="white-section" id="music">
+    <div class="container middle-container">
+      <h1 class="section-heading">
+        Music
+      </h1>
+      <p class="description">
+        <h4>I love most types of music, but my favorites include Jazz, Classic Rock, and R&B.<br />
+        <br />
+        I have sung for most of my life in one choir or another. I was even given credit for participating
+        on an album my church produced. I did harmony backup vocals. It is an awsome worship CD called <i>Season of Praise</i>.
+        Check it out <a href="https://www.amazon.com/dp/B001BQOHRY/ref=ntt_mus_dp_dpt_1" target="_blank">here</a> to listen to some sound clips.
+        <br /><br />
+        Music has always been part of my life.
+        I've tried out many instruments over the years, but none appeal to me as much as percussion. I call drums my soul instrument.
+        I love rhythm's paradoxical qualities of complexity and simplicity. Rhythm is foundational, strong, and supportive.
+        Without rhythm, there is no music, no life. As with any foundation, if it crumbles, so does everything else.
+      </h4></p>
+    </div>
+  </section>
+
+  <section class="colored-section" id="reading">
+    <div class="container middle-container">
+      <h1 class="section-heading">
+        Reading
+      </h1>
+      <p class="description">
+      <h4>I am a prolific reader. I always have a book in hand. It's not uncommon for me to be reading<br />
+        multiple books at once. I enjoy both fiction (romance, comedy, Sci-fi, etc.) and non-fiction (history, self-help, psychology, etc.). <br /><br />
+        I belong to two online book clubs at present. My monthly club is currently reading <a href="https://www.amazon.com/Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA/ref=sr_1_2?keywords=the+martian&qid=1681751797&sr=8-2" target="_blank"><i>The
+            Martian<i> by Andy Weir</a>. It is a sci-fi novel.<br />
+        My other club is weekly and currently working through <a
+          href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR/ref=sr_1_1?crid=32FE8DTW9EFF2&keywords=atomic+habits&qid=1681752087&sprefix=atomic+habits%2Caps%2C492&sr=8-1" target="_blank"><i>Atomic Habits</i> by James
+            Clear</a>.<br />
+        <br /> To see a list of books I've enjoyed so far, go to <a href="" target="_blank">Goodreads</a> to see my book list. I try to keep this list up-to-date.
+      </h4></p>
+    </div>
+  </section>
+
+  <section class="white-section" id="photography">
+    <div class="container middle-container">
+      <h1 class="section-heading">
+        Photography
+      </h1>
+      <p class="description">
+        <h4>I have enjoyed photography since I was a kid. My first photo was of a sailboat on a lake
+        at camp one summer when I was about eight years old. <br />
+        I took photography in eighth grade and became the photographer for the school paper (grades 8-10).
+        This included developing those photos in the darkroom.<br /><br />
+        After college, I took continuing ed courses at IUPUI and gained a certificate in
+        photography, which also included work in the darkroom.<br />
+        Later, I built a darkroom in my bathroom. A friend of mine, from a local photographer's group, and I, developed a
+        photo that won "best of show" in the Indiana State Fair. My own color photo was hung
+        in that show. Just to have your work hung was an honor as not many made it that far.<br />
+        Although my darkroom is no more, I still enjoy photography. My favorite subjects include
+        mostly nature shots. <br /><br />
+        The carousel below shows all flowers, but I like other nature shots, as well. <br />
+        Mostly natural formations such as the sky, clouds, and landscapes.<br />
+        I also love architecture. The clean lines and how they interact with a structure's surroundings, can be
+        a beautiful thing.
+      </h4></p><br />
+      <div id="carouselExample2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/photos/orchid.jpg" class="rounded img-fluid w-40" alt="orchid">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/photos/yellow_rose.jpg" class="rounded img-fluid w-50" alt="yellow_rose">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/photos/purple.jpg" class="rounded img-fluid w-50" alt="purple">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="colored-section" id="other">
+    <div class="container middle-container">
+      <h1 class="section-heading">
+        Other Hobbies
+      </h1>
+      <p class="description">
+        <h4>In addition to the above hobbies, I enjoy writing short stories, biking, working puzzles, data analysis (i.e. lottery numbers), etc.<br />
+        I usually touch on each of these occassionally as the mood hits me.
+        </h4>
+      </p>
+    </div>
+  </section>
+
+  <section id="footer-section">
+    <div class="container-fluid">
+      <iframe src="footer.html" scrolling="no"></iframe>
+    </div>
+  </section>
 </body>
 
 </html>

@@ -4,112 +4,165 @@
 <head>
   <meta charset="utf-8">
   <title>Linda Treadway's Personal Site</title>
-  <link href="css/main.css" rel="stylesheet" />
   <link rel="icon" href="favicon.ico">
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dancing+Script" />
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@1,100&family=Sacramento&display=swap" rel="stylesheet">
-  <!--  <link rel="import" href="header.html" height="300" width="100%"> /> -->
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!--style="background-color: lightcyan;">-->
-  <!--<iframe src="header.html" scrolling="no" width="1000" height="300"></iframe>-->
-  <header class="page-header">
+  <section class="header-section" id="title">
+    <div class="container-fluid page-header">
 
-      <img class="header-img" src="images/profile_pic.png" alt="My picture">
-      <p class="header-title">Linda Kim Treadway</p>
+      <div class="row description">
+        <div class="col-md-2">
 
-  </header>
+        </div>
+        <div class="col-md-8">
+          <h1 class="big-heading">Linda Kim Treadway</h1>
+        </div>
+        <div class="col-md-2">
 
-  <div class="top-container">
-      <h5>
-          I am a Computer Programmer who enjoys a variety of creative pursuits.<br />
-          Visit the links below for more details.
-      </h5>
-  </div>
+        <!-- Nav Bar -->
+        <nav class="navbar justify-content-center navbar-expand-md bg-none">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto flex-column">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#experience">
+                  Experience
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#accomplishments">
+                  Accomplishments
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">
+                  Hobbies
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resources">
+                  Resources
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+          </div>
+      </div>
+    </div>
+    <!--<div class="container-fluid"> -->
+    <div class="container-fluid row description">
+        <h4>
+          The following pages reflect my love of various creative pursuits.<br />
+          However, it is my hope they highlight my true passion: <em><b>Computer Programming</b></em>.<br />
+          <br />
+          Visit the title links below for more details on each section topic.
+        </h4>
+        <h5><i>Check back often as I will be adding updates to this site as I continue to learn.<br /></i></h5>
+        <h6><b>Version 2.0 (Uses HTML, CSS, JavaScript, and Bootstrap 5.2.0)</b></h6>
+    </div>
+    <!--</div> -->
+  </section>
 
-  <hr>
-  <div class="middle-container">
+  <section class="colored-section" id="experience">
+    <div class="container middle-container">
+      <a class="middle-links section-heading" href="experience.html">Programming Experience</a>
+      <h4>
+        Programming is like putting puzzle pieces together. <br />
+        I love the structure, creativity, and challenge of putting systems and code together that solve problems
+        and provide value to clients.<br />
+        Creative hobbies like art, music, and writing, may make me more well-rounded, but they only fulfill
+        one aspect of my personality. Programming satisfies my creative side and my logical, problem-solving side. I consider programming the perfect
+        blend of left and right brain thinking.<br /><br />
+        <em>Click on this section title to read more about my skills.</em>
+      </h4>
+    </div>
+  </section>
 
-      <p>
-        <a href="accomplishments.html" class="middle-links">Accomplishments</a></p>
+  <section class="white-section" id="accomplishments">
+    <div class="container middle-container">
+      <a class="middle-links section-heading" href="accomplishments.html">Accomplishments</a>
+      <h4>
+        I tend to be too humble, which makes selling myself to prospective employers
+        difficult. But, I try to convey that I do what I do because I enjoy it. Because
+        it is fun. If I create or finish anything, it is not to gain recognition,
+        although that’s nice too, but because I either want to challenge myself or
+        just like doing what I do. I have always counted myself as blessed to enjoy my job. Not many do.<br />
+        Accomplishments define a person and their character.
+        So, as you peruse this page, I hope it helps you get to know me a little better.
+      </h4>
+    </div>
+  </section>
 
+  <section class="colored-section" id="hobbies">
+    <div class="container middle-container">
+      <a class="middle-links" href="hobbies.html">Hobbies</a>
+      <h4>
+        Most of my hobbies are creative in nature. Probably because that is the
+        core of my nature, as well as, the energy that drives these activities.
+        In fact, everything I do has an element of fun to it, including programming. <br />
+        <i>My advice? Whatever you do, just have fun!</i>
+      </h4>
+    </div>
+  </section>
 
-      <!--<h3>Accomplishments</h3>-->
+  <section class="white-section" id="resources">
+    <div class="container middle-container">
+      <a class="middle-links" href="resources.html">Resources</a>
+      <h4>
+        This page is a compendium of programming resources I’ve accumulated so far.
+        I hope it will help other programmers, my collegues, and myself, as we
+        daily create code and solve problems. I really just wanted to have a
+        convenient reference at my finger tips. If you have any additions to
+        propose, please <a href="contact.html">contact me</a>. I can’t add everything,
+        but if I find it useful, I’ll gratefully add it to my list.
+      </h4>
+    </div>
+  </section>
 
-    <p>
-      <a class="middle-links" href="hobbies.html">Hobbies
-      <!--  <h3>Hobbies</h3> -->
-      </a>
-    </p>
+  <section class="colored-section" id="contact">
+    <div class="container middle-container">
+      <a class="middle-links section-heading" href="contact.html">Contact Me</a>
+      <h4>
+        Go to this page if you are interested in contacting me. I’ve provided a
+        form for sending me an email. Or you can use my email address directly
+        through your own email application. I’d love to hear your opinions on my website,
+        especially if you find any problems. If you just
+        want to share ideas regarding the topics on this site, I would love to hear from you.
+      </h4>
+    </div>
+  </section>
 
-  <p>
-    <a class="middle-links" href="contact.html">Contact Me
-      <!--  <h3>Contact Me</h3> -->
-      </a>
-  </p>
-    <!--<table cellspacing="20" align="center">
-      <tr>
-        <td align="center">
-          <a href="accomplishments.html">
-            <h3>Accomplishments</h3>
-          </a>
+  <section id="footer-section">
+    <div class="container-fluid">
+      <iframe src="footer.html" scrolling="no"></iframe>
+    </div>
+  </section>
 
-          <a href="hobbies.html">
-            <h3>Hobbies</h3>
-          </a>
-
-          <a href="contact.html">
-            <h3>Contact Me</h3>
-          </a>
-        </td>
-      </tr>
-    </table> -->
-  </div>
-  <!--<footer>
-    <a class="footer-link" target="_blank" href="https://www.facebook.com/linda.k.treadway/">Facebook</a>
-    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/linda-treadway-617521241/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B89TRO28vQeC4JrzhRKxbew%3D%3D">LinkedIn</a>
-    <a class="footer-link" target="_blank" href="https://lktreadway.github.io/cv/index.html">Website</a>
-    <p class="copyright">© Linda Kim Treadway.</p>
-  </footer> -->
-  <iframe src="footer.html" scrolling="no"></iframe>
-
-  <!-- <h3>Skills</h3>
-        <hr>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <table cellspacing="10">
-              <tr>
-                <td>Java</td>
-                <td>⭐⭐⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
-                <td>⭐⭐⭐</td>
-              </tr>
-            </table>
-          </td>
-
-          <td>            <table cellspacing="10">
-                        <tr>
-                          <td>HTML</td>
-                          <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                          <td>CSS</td>
-                          <td>⭐⭐⭐</td>
-                        </tr>
-                      </table></td>
-        </tr>
-      </table>
-        </tr>
-
-      </tbody>
-    </table> -->
 </body>
 
 </html>
