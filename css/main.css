@@ -185,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-item {
   padding: 0 10px;
+  text-align: left;
 }
 
 .nav-link {
@@ -193,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   /* color: #025259; */
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  font-size: 8pt;
+  font-size: 11pt;
   /*font-weight: bolder; */
 }
 
@@ -208,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Middle Components*/
 
 .description {
-  text: 15pt;
+  font-size: 15pt;
   text-align: center;
   /*margin: 10px 100px 30px 10px;*/
   line-height: 1.5;
@@ -265,8 +266,12 @@ footer > a:hover {
   color: white;
 }
 
+.social-icon {
+  margin: 0px 5px;
+}
+
 .copyright {
-  margin: 20px auto 5px;
+  margin: 10px auto 5px;
   color: #fff;
   font-size: 1rem;
 }
