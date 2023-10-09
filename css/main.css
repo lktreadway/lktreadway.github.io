@@ -18,264 +18,285 @@ footer: #FFF8BC
 */
 
 body {
-  font-family: 'Montserrat';
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat-Black';
-}
-
-/* Headings */
-
-.big-heading {
-  /*text-align: right; */
-  font-size: 4rem;
-  line-height: 1.5;
-  font-weight: 900;
-  font-family: 'Dancing Script';
-  text-shadow: #000 1px 3px; /*.3em*/
-    color: #fff;
-}
-
-.section-heading {
-  font-size: 3rem;
-  font-style: bolder;
-  line-height: 1.5;
-}
-
-.page-header {
-    /* background: no-repeat left/cover url(../images/field_of_flowers.jpg); */
-    background: no-repeat left/cover url(../images/AlcoholInk3.jpg);
-    height: 100%;
-    min-width: 120px;
-    /*color: #fff;*/
-    margin: 0;
-    text-align: center;
-}
-
-.header-img {
-  width: 20%;
-  margin-top: 10px;
-}
-
-.header-title {
-  font: bold calc(1em + 3 * (100vw - 120px) / 100) 'Dancing Script', cursive,
-        fantasy;
-    color: white;
-    /* color: #025259; */
-    margin: 10px auto 20px auto;
-}
-
-/* Title Components*/
-
-.title-image {
-  width: 60%;
-  margin: 3% 5%;
-  position: absolute;
-  right: 30%;
-}
-
-.title-img-container {
-  position: relative;
-}
-
-@media (max-width: 1024px) {
-  #title {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    /*text-align: right; */
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: #000 1px 3px; /*.3em*/
+      color: #fff;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    font-style: bolder;
+    line-height: 1.5;
+  }
+  
+  .page-header {
+      /* background: no-repeat left/cover url(../images/field_of_flowers.jpg); */
+      background: no-repeat left/cover url(../images/AlcoholInk3.jpg);
+      height: 100%;
+      /*min-width: 120px; */
+      min-width: 100%;
+      /*color: #fff;*/
+      margin: 0;
+      text-align: center;
+  }
+  
+  .header-img {
+    width: 20%;
+    margin-top: 10px;
+  }
+  
+  .header-title {
+    font: bold calc(1em + 3 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+          fantasy;
+      color: white;
+      /* color: #025259; */
+      margin: 10px auto 20px auto;
+  }
+  
+  /* Title Components*/
+  
   .title-image {
-    position: static;
-    transform: rotate(0);
-    width: auto;
+    width: 60%;
+    margin: 3% 5%;
+    position: absolute;
+    right: 30%;
   }
-}
-
-/* Sections */
-
-.header-section { /*header bar under the nav */
-  color: #000; /*black text*/
-  background-color: #379237; /*background #A6CF98*/
-}
-
-.colored-section {
-  /*color: #fff; */
-/*  background-color: #e48e66;*/
-  background-color: #FF8787;
-}
-
-.colored-section em {
-  color: purple;
-}
-
-.colored-section a {
-  color: #379237;
-  text-decoration: none;
-}
-.colored-section a:hover {
-  color: white;
-}
-
-.white-section {
-  background-color: #FFE898;
-/*  background-color: #e5e9c6;*/
-}
-
-.white-section em {
-  color: red;
-}
-
-.white-section a {
-  color: #379237;
-  text-decoration: none;
-}
-
-.white-section a:hover {
-  color: #FF8787;
-}
-
-#footer-section {
-  /*background-color: #fed788;*/
-  /*background-color: #557C55; */
-  background-color: #379237;
-  /* background-color: #025259; */
-}
-
-/* Containers */
-
-.container {
-  padding: 1% 5%; /*top/bottom & left/right*/
-  text-align: center;
-}
-
-.container-fluid {
-  padding: 1% 5%;
-  text-align: center;
-}
-
-#title .container-fluid {
-  padding: 1% 5%; /*top/bottom & left/right*/
-  text-align: center;
-}
-
-.top-container {
-  margin: 50px 0;
-}
-
-.middle-container {
-  /* align-items: center; */
-  text-align: center;
-}
-
-/* Navigation bar */
-
-.navbar {
-  padding: 0 0 1rem;
-  /* padding: 0 0 4.5rem; */
-}
-
-.navbar-nav {
-  padding: 0;
-  /* padding: 0 1.5rem 0 0; */
-}
-
-/* .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bolder;
-} */
-
-.nav-item {
-  padding: 0 10px;
-  text-align: left;
-}
-
-.nav-link {
-  /*font-family: "Montserrat-Bold"; */
-  /*color: black;*/
-  /* color: #025259; */
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  font-size: 12pt;
-  /*font-weight: bolder; */
-}
-
-.nav-item a {
-  /*color: #379237;*/
-  color: #000;
-}
-
-.nav-item a:hover {
-  color: #fff;
-  /*  color: #FF8787;*/
-}
-
-/*Middle Components*/
-
-.description {
-  font-size: 15pt;
-  text-align: center;
-  /*margin: 10px 100px 30px 10px;*/
-  line-height: 1.5;
-}
-
-.middle-titles-only {
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  font-size: 20pt;
-  font-weight: bolder;
-}
-
-.middle-links {
-  color: #000;
-  /* color: #025259; */
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  font-size: 20pt;
-  font-weight: bolder;
-}
-
-.middle-links:hover {
-  /*color: #025259;*/
- color: white;
-}
-
-/*Footer Section*/
-
-iframe {
-  height: 180px;
-  width: 100%;
-  border: 0;
-  border-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  padding: 10px;
-  text-align: center;
-}
-
-footer > a {
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  margin: 30px;
-  text-decoration: none;
-  font-size: 10pt;
-  font-weight: bolder;
-}
-
-footer > a:hover {
-  color: white;
-}
-
-.social-icon {
-  margin: 0px 5px;
-}
-
-.copyright {
-  margin: 10px auto 5px;
-  color: #fff;
-  font-size: 1rem;
-}
+  
+  .title-img-container {
+    position: relative;
+  }
+  
+  @media (max-width: 1024px) {
+    #title {
+      text-align: center;
+    }
+    .title-image {
+      position: static;
+      transform: rotate(0);
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+  }
+  
+  /* Sections */
+  
+  .header-section { /*header bar under the nav */
+    color: #000; /*black text*/
+    background-color: #379237; /*background #A6CF98*/
+  }
+  
+  .colored-section {
+    /*color: #fff; */
+  /*  background-color: #e48e66;*/
+    background-color: #FF8787;
+  }
+  
+  .colored-section em {
+    color: purple;
+  }
+  
+  .colored-section a {
+    color: #379237;
+    text-decoration: none;
+  }
+  .colored-section a:hover {
+    color: white;
+  }
+  
+  .white-section {
+    background-color: #FFE898;
+  /*  background-color: #e5e9c6;*/
+  }
+  
+  .white-section em {
+    color: red;
+  }
+  
+  .white-section a {
+    color: #379237;
+    text-decoration: none;
+  }
+  
+  .white-section a:hover {
+    color: #FF8787;
+  }
+  
+  #footer-section {
+    /*background-color: #fed788;*/
+    /*background-color: #557C55; */
+    background-color: #379237;
+    /* background-color: #025259; */
+  }
+  
+  /* Containers */
+  
+  .container {
+    padding: 1% 5%; /*top/bottom & left/right*/
+    text-align: center;
+  }
+  
+  .container-fluid {
+    padding: 1% 5%;
+    text-align: center;
+  }
+  
+  #title .container-fluid {
+    padding: 1% 5%; /*top/bottom & left/right*/
+    text-align: center;
+  }
+  
+  .top-container {
+    margin: 50px 0;
+  }
+  
+  .middle-container {
+    /* align-items: center; */
+    text-align: center;
+  }
+  
+  /* Navigation bar */
+  
+  .navbar {
+    padding: 0 0 1rem;
+    /* padding: 0 0 4.5rem; */
+  }
+  
+  .navbar-nav {
+    padding: 0;
+    /* padding: 0 1.5rem 0 0; */
+  }
+  
+  /* .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bolder;
+  } */
+  
+  .nav-item {
+    padding: 0 10px;
+    text-align: left;
+  }
+  
+  .nav-link {
+    /*font-family: "Montserrat-Bold"; */
+    /*color: black;*/
+    /* color: #025259; */
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    /*font-weight: bolder; */
+  }
+  
+  .nav-item a {
+    /*color: #379237;*/
+    color: #000;
+  }
+  
+  .nav-item a:hover {
+    color: #fff;
+    /*  color: #FF8787;*/
+  }
+  
+  /*Middle Components*/
+  
+  .description {
+    font-size: 15pt;
+    text-align: center;
+    /*margin: 10px 100px 30px 10px;*/
+    line-height: 1.5;
+  }
+  
+  .middle-titles-only {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bolder;
+  }
+  
+  .middle-links {
+    color: #000;
+    /* color: #025259; */
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bolder;
+  }
+  
+  .middle-links:hover {
+    /*color: #025259;*/
+   color: white;
+  }
+  
+  .linkedin-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .carousel-item > img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .carousel-image {
+    object-fit: contain;
+  }
+  
+  /*Footer Section*/
+  
+  #footer-section iframe {
+    height: 200px;
+    width: 100%;
+    border: 0;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+  
+  }
+  
+  footer > a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: bolder;
+  }
+  
+  footer > a:hover {
+    color: white;
+  }
+  
+  .social-icon {
+    margin: 0px 5px;
+  }
+  
+  .copyright {
+    margin: 10px auto 5px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
